@@ -32,7 +32,7 @@ Press `Escape` to reset all text.
 ## Getting started
 
 ```bash
-git clone https://github.com/your-username/pretext-fade.git
+git clone https://github.com/lenxism/pretext-fade.git
 cd pretext-fade
 npm install
 npm run dev
