@@ -1,6 +1,21 @@
 {
-  "name": "pretext-fire",
+  "name": "pretext-fade",
   "version": "0.1.0",
+  "description": "ADHD-friendly reading tool that fades away text you have read, with instant reflow powered by @chenglou/pretext",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/pretext-fade"
+  },
+  "keywords": [
+    "pretext",
+    "adhd",
+    "reading",
+    "accessibility",
+    "text-measurement",
+    "framer-motion",
+    "nextjs"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +24,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@chenglou/pretext": "^0.0.3",
+    "motion": "^12.38.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
